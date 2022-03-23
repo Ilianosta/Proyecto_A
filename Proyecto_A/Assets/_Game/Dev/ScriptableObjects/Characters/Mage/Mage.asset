@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b64196b12a640040ba6a5b879a44e11, type: 3}
+  m_Name: Mage
+  m_EditorClassIdentifier: 
+  charName: Necro
+  character: {fileID: 3512615356354736644, guid: fc5f302899089d04b830c121900fd1df, type: 3}
+  stats:
+    attackDmg: 1
+    health: 8
+    armor: 5
+    speed: 15
+    magicDmg: 15
+  skills:
+  - {fileID: 11400000, guid: 3b4f65db82538d54fb3dee5cf9964dd3, type: 2}
