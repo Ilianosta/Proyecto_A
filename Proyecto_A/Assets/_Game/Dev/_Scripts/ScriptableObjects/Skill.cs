@@ -9,7 +9,16 @@ public class Skill : ScriptableObject
     public float damage, attackDmgScale, magicDmgScale;
     public Effects effect;
     public damageTypes damageType;
-    public Color c_Physical, c_Magic, c_Hybrid;
+    Color c_Physical = new Color(1, 0.85f, 0.35f);
+    Color c_Magic = new Color(0.8f, 0.5f, 1f);
+    Color c_Hybrid = new Color(0.28f, 1, 0.28f);
+    [ContextMenu("Recharge Colors")]
+    void RechargeColors()
+    {
+        c_Physical = new Color(1, 0.85f, 0.35f);
+        c_Magic = new Color(0.8f, 0.5f, 1f);
+        c_Hybrid = new Color(0.28f, 1, 0.28f);
+    }
     public float DoDamage(Character character)
     {
         float auxDamage = damage;
@@ -19,15 +28,15 @@ public class Skill : ScriptableObject
         switch (damageType)
         {
             case damageTypes.physical:
-                scale = character.stats.attackDmg * attackDmgScale;
+                scale = character.stats[(int)StatsType.attackDmg].value * attackDmgScale;
                 auxDamage = damage + scale;
                 break;
             case damageTypes.magic:
-                scale = character.stats.magicDmg * magicDmgScale;
+                scale = character.stats[(int)StatsType.magicDmg].value * magicDmgScale;
                 auxDamage = damage + scale;
                 break;
             case damageTypes.hybrid:
-                scale = character.stats.attackDmg * attackDmgScale + character.stats.magicDmg * magicDmgScale;
+                scale = character.stats[(int)StatsType.attackDmg].value * attackDmgScale + character.stats[(int)StatsType.magicDmg].value * magicDmgScale;
                 auxDamage = damage + scale;
                 break;
         }
@@ -37,7 +46,6 @@ public class Skill : ScriptableObject
 
     public string GetDescription()
     {
-        
         return skillDesc;
     }
 }

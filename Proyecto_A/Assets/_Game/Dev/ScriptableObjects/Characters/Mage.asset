@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   charName: Necro
   character: {fileID: 3512615356354736644, guid: fc5f302899089d04b830c121900fd1df, type: 3}
+  sprite: {fileID: 21300000, guid: 9ff39fbb4ac1e1d4a882f365be2800cb, type: 3}
   stats:
     attackDmg: 1
     health: 8

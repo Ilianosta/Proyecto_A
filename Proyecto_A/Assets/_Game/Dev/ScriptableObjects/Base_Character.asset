@@ -10,18 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0b64196b12a640040ba6a5b879a44e11, type: 3}
-  m_Name: Pala
+  m_Name: Base_Character
   m_EditorClassIdentifier: 
   charName: DefaultName
   character: {fileID: 0}
-  stats:
-    attackDmg: 2
-    health: 10
-    armor: 10
-    speed: 5
-    magicDmg: 5
-  skills:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  sprite: {fileID: 0}
+  stats: []
+  skills: []
