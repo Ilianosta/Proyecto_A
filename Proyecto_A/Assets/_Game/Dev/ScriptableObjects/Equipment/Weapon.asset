@@ -12,10 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad7743935868cd74e9db15de1164fbeb, type: 3}
   m_Name: Weapon
   m_EditorClassIdentifier: 
-  type: 1
-  stats:
-    attackDmg: 0
-    health: 10
-    armor: 15
-    speed: 0
-    magicDmg: 0
+  type: 0
+  stats: []

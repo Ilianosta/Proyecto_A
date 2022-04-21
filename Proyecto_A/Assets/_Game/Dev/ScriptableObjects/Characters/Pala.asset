@@ -16,10 +16,15 @@ MonoBehaviour:
   character: {fileID: 3512615356354736644, guid: c05e5b461619f9840a99d41dfc4f6564, type: 3}
   sprite: {fileID: 21300000, guid: 9ff39fbb4ac1e1d4a882f365be2800cb, type: 3}
   stats:
-    attackDmg: 2
-    health: 10
-    armor: 10
-    speed: 5
-    magicDmg: 5
+  - stat: 0
+    value: 4
+  - stat: 1
+    value: 0
+  - stat: 2
+    value: 0
+  - stat: 3
+    value: 10
+  - stat: 4
+    value: 1
   skills:
   - {fileID: 11400000, guid: b67ac084776a7724b8bc324224a2d6b2, type: 2}

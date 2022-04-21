@@ -2310,7 +2310,8 @@ MonoBehaviour:
   characters:
   - {fileID: 11400000, guid: 7383241e547fca8479b84cc0b9355af9, type: 2}
   - {fileID: 11400000, guid: bb6a9f6a331a202418166b31f7964b1e, type: 2}
-  canMove: 0
+  spawnAllies: 1
+  spawnEnemies: 1
 --- !u!1 &1467371013
 GameObject:
   m_ObjectHideFlags: 0

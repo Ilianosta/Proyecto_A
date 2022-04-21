@@ -15,5 +15,15 @@ MonoBehaviour:
   charName: DefaultName
   character: {fileID: 0}
   sprite: {fileID: 0}
-  stats: []
+  stats:
+  - stat: 0
+    value: 0
+  - stat: 1
+    value: 0
+  - stat: 2
+    value: 0
+  - stat: 3
+    value: 0
+  - stat: 4
+    value: 0
   skills: []

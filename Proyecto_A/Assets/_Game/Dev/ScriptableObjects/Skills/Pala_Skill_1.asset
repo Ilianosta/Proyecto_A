@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16562a793ce1b03469d60213c3867b1e, type: 3}
   m_Name: Pala_Skill_1
   m_EditorClassIdentifier: 
+  skillName: Default skill
+  skillDesc: Default description
   damage: 1
+  attackDmgScale: 0.3
+  magicDmgScale: 0
+  damageType: 0

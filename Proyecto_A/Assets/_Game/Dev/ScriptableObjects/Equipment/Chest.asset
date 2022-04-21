@@ -13,9 +13,4 @@ MonoBehaviour:
   m_Name: Chest
   m_EditorClassIdentifier: 
   type: 1
-  stats:
-    attackDmg: 0
-    health: 10
-    armor: 15
-    speed: 0
-    magicDmg: 0
+  stats: []
